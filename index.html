@@ -1,46 +1,170 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lo Garcia Photography - UIkit</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-    <body>
-        <img src="logo1.png" alt=>
-            <div class="uk-position-relative">
-                    <!-- <img src="images/light.jpg" alt=""> -->
-                    <div class="uk-position-top">
-                        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                            <div class="uk-navbar-right">
-                                <ul class="uk-navbar-nav">
-                                    <li class="uk-active"><a href="#">Home</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li>
-                                        <a href="#">Publications</a>
-                                        <div class="uk-navbar-dropdown">
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li><a href="#">Kaltblut Magazine</a></li>
-                                                <li><a href="#">Lucy's Magazine</a></li>
-                                                <li><a href="#">Solis Magazine</a></li>
-                                                <li><a href="#">Xiox Magazine</a></li>
-                                                <li><a href="#">Model World Magazine</a></li>
-                                                <li><a href="#">Elements Magazine</a></li>
-                                                <li><a href="#">INK Magazine</a></li>
-                                                <li><a href="#">Elegant Magazine</a></li>
-                                                <li><a href="#">Elegant Magazine II</a></li>
-                                                <li><a href="#">Obsurae Magazine</a></li>
-                                            </ul>
-                                            <li><a href="#">Contact</a></li>
 
-                                        </div>
-                                    </li>
-                                </ul>
+<head>
+    <title>Lo Garcia Photography - UIkit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+    <div class="sidebar" style="width:20%">
+     
+            <img class="center" src="logo1.png" alt="logo">
+            <ul class="uk-list uk-link-text">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+      
+        <!-- <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">Home</a></li><br>
+                    <li><a href="#">Portfolio</a></li><br>
+                    <li>
+                        <a href="#">Publications</a><br>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="#">Kaltblut Magazine</a></li>
+                                <li><a href="#">Lucy's Magazine</a></li>
+                                <li><a href="#">Solis Magazine</a></li>
+                                <li><a href="#">Xiox Magazine</a></li>
+                                <li><a href="#">Model World Magazine</a></li>
+                                <li><a href="#">Elements Magazine</a></li>
+                                <li><a href="#">INK Magazine</a></li>
+                                <li><a href="#">Elegant Magazine</a></li>
+                                <li><a href="#">Elegant Magazine II</a></li>
+                                <li><a href="#">Obsurae Magazine</a></li>
+                            </ul>
+                    <li><a href="#">Contact</a></li>
+
+            </div>
+            </li>
+            </ul>
+    </div>
+    </nav> -->
+    </div>
+
+    <div class="content" style="margin-left:20%">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="beauty.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="glam.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="daniel.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="helly.jpeg" alt="" uk-cover>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slideshow-item="next"></a>
+
+        </div>
+        <!-- <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+                            <div>
+                                <div class="uk-tile uk-tile-default uk-padding-small">
+                                    <img src="beauty.jpeg">
+                                </div>
                             </div>
-                        </nav>
-                    </div>
+                            <div>
+                                <div class="uk-tile uk-tile-default uk-padding-small">
+                                    <img src="helly.jpeg">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-tile uk-tile-default uk-padding-small">
+                                    <img src="glam.jpeg">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-tile uk-tile-default uk-padding-small">
+                                    <img src="daniel.jpeg">
+                                </div>
+                            </div>
+                        </div>
+              </div> -->
+        <!-- <img src="logo1.png" alt=""> -->
+        <!-- <div class="uk-position-relative">
+        <!-- <img src="images/light.jpg" alt=""> -->
+        <!-- <div class="uk-position-top"> -->
+        <!-- <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li>
+                            <a href="#">Publications</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Kaltblut Magazine</a></li>
+                                    <li><a href="#">Lucy's Magazine</a></li>
+                                    <li><a href="#">Solis Magazine</a></li>
+                                    <li><a href="#">Xiox Magazine</a></li>
+                                    <li><a href="#">Model World Magazine</a></li>
+                                    <li><a href="#">Elements Magazine</a></li>
+                                    <li><a href="#">INK Magazine</a></li>
+                                    <li><a href="#">Elegant Magazine</a></li>
+                                    <li><a href="#">Elegant Magazine II</a></li>
+                                    <li><a href="#">Obsurae Magazine</a></li>
+                                </ul>
+                        <li><a href="#">Contact</a></li>
+
                 </div>
-    </body>
+                </li>
+                </ul>
+        </div>
+        </nav> -->
+        <!-- </div>
+    </div> -->
+
+        <!-- <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+        <div>
+            <div class="uk-tile uk-tile-default uk-padding-small">
+                <img src="beauty.jpeg">
+            </div>
+        </div>
+        <div>
+            <div class="uk-tile uk-tile-default uk-padding-small">
+                <img src="helly.jpeg">
+            </div>
+        </div>
+        <div>
+            <div class="uk-tile uk-tile-default uk-padding-small">
+                <img src="glam.jpeg">
+            </div>
+        </div>
+        <div>
+            <div class="uk-tile uk-tile-default uk-padding-small">
+                <img src="daniel.jpeg">
+            </div>
+        </div>
+    </div> -->
+
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+        </script>
+</body>
+
 </html>
