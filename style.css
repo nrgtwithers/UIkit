@@ -40,5 +40,5 @@ html, body {
 li,a{
     color: black;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
 }
