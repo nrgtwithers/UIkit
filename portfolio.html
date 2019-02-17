@@ -17,12 +17,12 @@
 
         <img class="center" src="images/logo1.png" alt="logo">
         <ul class="uk-list uk-link-text">
-            <li><a href="/index.html">HOME</a></li>
-            <li><a href="/portfolio.html">PORTFOLIO</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
             <li><button class="uk-button uk-button-default" type="button">Publications</button>
                 <div uk-dropdown>
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="/publication.html">Kaltblut Magazine</a></li>
+                        <li><a href="publication.html">Kaltblut Magazine</a></li>
                         <li><a href="#">Lucy's Magazine</a></li>
                         <li><a href="#">Solis Magazine</a></li>
                         <li><a href="#">Xiox Magazine</a></li>
@@ -44,6 +44,39 @@
 
     </div>
 
+    <div class="content" style="margin-left:20%">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+            uk-slideshow="animation: fade; autoplay: true; pause-on-hover: true; autoplay-interval: 3000">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="images/beauty.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/glam.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/daniel.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/helly.jpeg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/damian.jpg" alt="" uk-cover>
+                </li>
+                <!-- <li>
+                    <img src="images/jennifer.jpg" alt="" uk-cover>
+                </li> -->
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slideshow-item="next"></a>
+
+        </div>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
 </body>
 
 </html>
