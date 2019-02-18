@@ -19,7 +19,8 @@
         <ul class="uk-list uk-link-text">
             <li><a href="index.html">HOME</a></li>
             <li><a href="portfolio.html">PORTFOLIO</a></li>
-            <li><button class="uk-button uk-button-default" type="button">Publications</button>
+            <li><a href='publication.html'>PUBLICATION</li>
+            <!-- <li><button class="uk-button uk-button-default" type="button">Publications</button>
                 <div uk-dropdown>
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="publication.html">Kaltblut Magazine</a></li>
@@ -32,8 +33,9 @@
                         <li><a href="#">Elegant Magazine</a></li>
                         <li><a href="#">Elegant Magazine II</a></li>
                         <li><a href="#">Obsurae Magazine</a></li>
-                    </ul>
-                    <!-- This is a button toggling the modal -->
+                    </ul> --> 
+                    <br>
+            <!-- This is a button toggling the modal -->
             <li><button class="uk-button uk-button-default uk-margin-small-right" type="button"
                     uk-toggle="target: #modal-example">CONTACT</button>
             </li>
@@ -83,40 +85,46 @@
 
     </div>
 
-    <div class="content" style="margin-left:20%">
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
-            uk-slideshow="animation: fade; autoplay: true; pause-on-hover: true; autoplay-interval: 3000">
-
-            <ul class="uk-slideshow-items">
-                <li>
-                    <img src="images/beauty.jpeg" alt="" uk-cover>
+    <div class="content1" style="margin-left:20%">
+        <div class="publication">
+            <ul uk-accordion="multiple: true">
+                <li class="uk-open">
+                    <a class="uk-accordion-title" href="#">Kaltblut Magazine</a>
+                    <div class="uk-accordion-content">
+                        <img src="images/space.jpeg" alt="Kaltblut">
+                    </div>
                 </li>
                 <li>
-                    <img src="images/glam.jpeg" alt="" uk-cover>
+                    <a class="uk-accordion-title" href="#">Lucy's Magazine</a>
+                    <div class="uk-accordion-content">
+                        <img src="images/voyage.jpeg" alt="lucy">
+                    </div>
                 </li>
                 <li>
-                    <img src="images/daniel.jpeg" alt="" uk-cover>
+                    <a class="uk-accordion-title" href="#">Solis Magazine</a>
+                    <div class="uk-accordion-content">
+                        <img src="images/maiden.jpeg" alt="solis">
+                    </div>
                 </li>
                 <li>
-                    <img src="images/helly.jpeg" alt="" uk-cover>
+                    <a class="uk-accordion-title" href="#">Xiox Magazine</a>
+                    <div class="uk-accordion-content">
+                        <img src="images/lauren.jpeg" alt="xiox">
+                    </div>
                 </li>
                 <li>
-                    <img src="images/damian.jpg" alt="" uk-cover>
-                </li>
-                <li>
-                    <img src="images/blake.jpeg" alt="Blake" uk-cover>
+                    <a class="uk-accordion-title" href="#">Model World Magazine</a>
+                    <div class="uk-accordion-content">
+                        <img src="images/floral.jpeg" alt="floral">
+                    </div>
                 </li>
             </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                uk-slideshow-item="next"></a>
-
         </div>
 
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+    </div>
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
 </body>
 
 </html>
