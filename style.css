@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
 /* GLOBAL STYLES */
 html, body {
     background: transparent;
@@ -57,6 +59,11 @@ li,a{
     left: 0;
     width:80%;
     position: absolute;
+}
+
+a.uk-accordion-title{
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
 }
 
 @media (min-width: 48em) {
