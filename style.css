@@ -29,6 +29,10 @@ html, body {
     top:0;
 }
 
+.portfolio{
+    padding-top: 50px;
+    width: 75%;
+}
 
 .center {
     display: block;
