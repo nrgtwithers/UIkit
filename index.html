@@ -33,14 +33,53 @@
                         <li><a href="#">Elegant Magazine II</a></li>
                         <li><a href="#">Obsurae Magazine</a></li>
                     </ul>
-                </div>
+                    <!-- This is a button toggling the modal -->
+            <li><button class="uk-button uk-button-default uk-margin-small-right" type="button"
+                    uk-toggle="target: #modal-example">CONTACT</button>
             </li>
-            <br><br><br>
+            <br><br>
             <li><a href="mailto:logarciaphotography@gmail.com"><i class="fas fa-envelope"></i></a></li>
             <li><a href="https://www.instagram.com/lo_garciaphoto/"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/logarciaphotography"><i class="fab fa-facebook"></i></a></li>
-            <!-- <li><a href="#">CONTACT</a></li> -->
         </ul>
+        <!-- This is the modal -->
+        <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <h2 class="uk-modal-title">CONTACT</h2>
+                <form class="uk-form-stacked">
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-text">Name*</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-text">Email*</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-text">Subject</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-text">Message</label>
+                        <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
+                    </div>
+
+                </form>
+                <p class="uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                    <button class="uk-button uk-button-primary" type="button">Send</button>
+                </p>
+            </div>
+        </div>
+    </div>
 
     </div>
 
@@ -64,9 +103,9 @@
                 <li>
                     <img src="images/damian.jpg" alt="" uk-cover>
                 </li>
-                <!-- <li>
-                    <img src="images/jennifer.jpg" alt="" uk-cover>
-                </li> -->
+                <li>
+                    <img src="images/blake.jpeg" alt="Blake" uk-cover>
+                </li>
             </ul>
 
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
