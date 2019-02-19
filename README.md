@@ -14,7 +14,7 @@ This site is based upon utilizing **UI kit Framework** to create an optional lay
 ## Disadvantages
 
 1. Unlike other frameworks you need to create your own custom media queries for it to be more mobile friendly.
-1. They offer Pro mode to make it easy to customize the site, but you must pay to utlize it. (I did the whole site based on the free resources for the framework.)
+1. They offer Pro mode to make it easy to customize the site, but you must pay to utlize it. (I did the whole site based on the free resources for the framework).
 
 ### Technologies Utilized
 - HTML5
